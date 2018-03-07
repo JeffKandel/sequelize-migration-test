@@ -1,0 +1,42 @@
+Arguments: 
+  /Users/Student/.nvm/versions/node/v8.9.4/bin/node /Users/Student/.nvm/versions/node/v8.9.4/bin/yarn install sequelize-cli
+
+PATH: 
+  /Users/Student/.nvm/versions/node/v8.9.4/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/JeffreyKandel/Desktop/phantomjs-1.9.7-macosx:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/Student/.antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-unixorn-SLASH-warhol.plugin.zsh.git/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.9.4
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "migration-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: `install` has been replaced with `add` to add new dependencies. Run "yarn add sequelize-cli" instead.
+      at new MessageError (/Users/Student/.nvm/versions/node/v8.9.4/lib/node_modules/yarn/lib/cli.js:186:110)
+      at Object.<anonymous> (/Users/Student/.nvm/versions/node/v8.9.4/lib/node_modules/yarn/lib/cli.js:21987:13)
+      at Generator.next (<anonymous>)
+      at step (/Users/Student/.nvm/versions/node/v8.9.4/lib/node_modules/yarn/lib/cli.js:98:30)
+      at /Users/Student/.nvm/versions/node/v8.9.4/lib/node_modules/yarn/lib/cli.js:109:13
+      at <anonymous>
